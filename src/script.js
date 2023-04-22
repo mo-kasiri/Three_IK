@@ -201,7 +201,17 @@ const iks = [
     {
         target: 6,
         effector: 5,
-        links: [ {index: 4},{ index: 3 }, { index: 2 }, { index: 1 } ]
+        links: [ {index: 4},{index: 5},{index:3},
+            { index: 2,
+              //rotationMin: new THREE.Vector3( 1.2, - 1.8, - .4 ),
+              //rotationMax: new THREE.Vector3( 1.7, - 1.1, .3 )
+            
+            },
+             { index: 1,
+               //rotationMin: new THREE.Vector3( 1.2, - 1.8, - .4 ),
+               //rotationMax: new THREE.Vector3( 1.7, - 1.1, .3 )
+            
+            } ]
     }
 ];
 
